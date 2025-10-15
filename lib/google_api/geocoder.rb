@@ -14,7 +14,7 @@ module GoogleApi
       private
 
       def options(params)
-        GoogleApi.Base.options(params)
+        GoogleApi::Base.options(params)
       end
     end
   end
