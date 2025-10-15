@@ -8,6 +8,10 @@ An example Rails 7 application that provides:
 
 IMPORTANT: In development, caching is disabled by default in Rails. To benefit from the cached weather query, you must explicitly enable caching (see the "Enable cache in development" section below).
 
+## Try it
+
+[https://weather-finder.com](https://weather-finder-02441c216c89.herokuapp.com/)
+
 
 ## Screenshot
 
