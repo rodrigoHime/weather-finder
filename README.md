@@ -8,6 +8,11 @@ An example Rails 7 application that provides:
 
 IMPORTANT: In development, caching is disabled by default in Rails. To benefit from the cached weather query, you must explicitly enable caching (see the "Enable cache in development" section below).
 
+
+## Screenshot
+
+<img width="2543" height="1321" alt="Captura de Tela 2025-10-15 às 10 30 31" src="https://github.com/user-attachments/assets/64a20c1a-7732-4144-8477-efdab6ed2224" />
+
 ## Prerequisites
 - Ruby 3.1.7
 - Bundler (gem install bundler)
@@ -73,3 +78,5 @@ You can toggle again to disable caching. Watch the server logs for messages like
 - Missing credentials: Ensure you’ve set open_weather_api_key and google_api_key under the config: section of Rails credentials.
 - 401/403 calling external APIs: Verify your keys are valid and enabled for the correct services.
 - No cache hits in development: Run bin/rails dev:cache to enable caching.
+
+
