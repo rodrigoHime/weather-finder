@@ -1,5 +1,5 @@
 module OpenWeatherMap
-  module Base
+  class Base
     class << self
       attr_accessor :api_key
 

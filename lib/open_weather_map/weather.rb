@@ -17,7 +17,7 @@ module OpenWeatherMap
       private
 
       def options(params)
-        OpenWeatherMap.options(params)
+        OpenWeatherMap::Base.options(params)
       end
 
       def log_request_message(method, zip_code, country_code)
