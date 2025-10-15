@@ -1,5 +1,5 @@
 module OpenWeatherMap
-  class Geo
+  class Geo < Base
     include HTTParty
     base_uri 'https://api.openweathermap.org/geo/1.0'
 

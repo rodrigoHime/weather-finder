@@ -1,5 +1,5 @@
 module GoogleApi
-  class Geocoder
+  class Geocoder < Base
     include HTTParty
     base_uri "https://maps.googleapis.com/maps/api/geocode"
 

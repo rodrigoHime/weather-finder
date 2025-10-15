@@ -1,5 +1,5 @@
-require "#{Rails.root}/lib/google_api/google_api.rb"
+require "#{Rails.root}/lib/google_api/base.rb"
 
-GoogleApi.configure do |config|
+GoogleApi::Base.configure do |config|
   config.api_key = Rails.application.credentials.config[:google_api_key]
 end
