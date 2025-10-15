@@ -19,6 +19,7 @@ gem "stimulus-rails"
 
 gem "httparty"
 gem 'jbuilder'
+gem 'redis'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
